@@ -1,0 +1,33 @@
+.tweets { display: grid; gap: 12px; }
+
+.tweet_header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+  min-width: 0; 
+}
+
+.tweet_user {
+  font-weight: 700;
+  color: #bcd6ff;
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tweet_date {
+  font-size: 0.95rem;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tweet_content {
+  line-height: 1.55;
+  font-size: 1.05rem;
+  overflow-wrap: anywhere;  
+  word-break: break-word;   
+}
