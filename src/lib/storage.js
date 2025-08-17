@@ -1,7 +1,7 @@
 
 const LS_TWEETS_KEY = 'tw.tweets';
 const LS_USERNAME_KEY = 'tw.username';
-const DEFAULT_USERNAME = 'asi';
+const DEFAULT_USERNAME = 'Dobby';
 
 export function loadTweets() {
   try { return JSON.parse(localStorage.getItem(LS_TWEETS_KEY)) || []; }
